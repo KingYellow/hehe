@@ -1,0 +1,16 @@
+PODS:
+  - hehe (0.1.0)
+
+DEPENDENCIES:
+  - hehe (from `../`)
+
+EXTERNAL SOURCES:
+  hehe:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  hehe: 170ab76ccd27ac328c869e978003585f417704f9
+
+PODFILE CHECKSUM: d6b411c9bee5860c6e25221db3bb73eeb5c2375f
+
+COCOAPODS: 1.5.3
