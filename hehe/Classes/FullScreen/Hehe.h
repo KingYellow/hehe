@@ -7,7 +7,6 @@
 
 #ifndef Hehe_h
 #define Hehe_h
-#import "UINavigationController+FDFullscreenPopGesture.h"
 
 
 #endif /* Hehe_h */
