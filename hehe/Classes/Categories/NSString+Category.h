@@ -10,13 +10,13 @@
 @interface NSString (Category)
 
 /**
- 正则电话号码
+ 正则校验电话号码
  */
 -(BOOL)isVAlidPhoneNumber;
 
- 
+
 /**
- 正则邮箱
+ 正则校验邮箱
  */
 -(BOOL)isValidEmail;
 
