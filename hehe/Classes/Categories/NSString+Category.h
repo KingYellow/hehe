@@ -14,7 +14,6 @@
  */
 -(BOOL)isVAlidPhoneNumber;
 
-
 /**
  正则校验邮箱
  */

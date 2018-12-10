@@ -12,16 +12,14 @@
 /**
  正则电话号码
  */
--(BOOL)isVAlidPhoneNumber
-{
+-(BOOL)isVAlidPhoneNumber{
     NSString *regex = @"^(13|15|17|18|14)\\d{9}$";
     NSPredicate * pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex];
     BOOL isMatch =[pred evaluateWithObject:self];
     return isMatch;
 }
 
--(BOOL)isValidEmail
-{
+-(BOOL)isValidEmail{
     NSString *regex = @"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}";
     NSPredicate *emailTestPredicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", regex];
     return [emailTestPredicate evaluateWithObject:self];
