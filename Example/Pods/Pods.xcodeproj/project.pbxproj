@@ -13,8 +13,6 @@
 		892F019F21BA13B600AFF713 /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 892F019D21BA13B600AFF713 /* UINavigationController+FDFullscreenPopGesture.h */; };
 		892F01A021BA13B600AFF713 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 892F019E21BA13B600AFF713 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		892F01A321BA150D00AFF713 /* Hehe.h in Headers */ = {isa = PBXBuildFile; fileRef = 892F01A221BA150D00AFF713 /* Hehe.h */; };
-		8939D4C121BE06B6006CCF9B /* NSString+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 8939D4BF21BE06B6006CCF9B /* NSString+Category.h */; };
-		8939D4C221BE06B6006CCF9B /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 8939D4C021BE06B6006CCF9B /* NSString+Category.m */; };
 		95F9554F3BBABDC9DEA0C705CB3E3A7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		DEE4303DC909281D55C379DBA02EA2A0 /* Pods-hehe_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5135CD4BCCB2BE18167F74D6DCE06D0F /* Pods-hehe_Tests-dummy.m */; };
 		FBC7CA6C3BB1E9E1A27F14D9FC1EF6F1 /* hehe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A64363869A90032996290DADABE8637 /* hehe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -47,8 +45,6 @@
 		892F019D21BA13B600AFF713 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		892F019E21BA13B600AFF713 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		892F01A221BA150D00AFF713 /* Hehe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hehe.h; sourceTree = "<group>"; };
-		8939D4BF21BE06B6006CCF9B /* NSString+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
-		8939D4C021BE06B6006CCF9B /* NSString+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
 		8939D4C321BE0CBC006CCF9B /* QZHCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QZHCategories.h; sourceTree = "<group>"; };
 		8DD59A1A0B8E277D3621C1FC05240487 /* Pods-hehe_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hehe_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -150,8 +146,6 @@
 		8939D4BE21BE0664006CCF9B /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				8939D4BF21BE06B6006CCF9B /* NSString+Category.h */,
-				8939D4C021BE06B6006CCF9B /* NSString+Category.m */,
 				8939D4C321BE0CBC006CCF9B /* QZHCategories.h */,
 			);
 			name = Categories;
@@ -219,7 +213,6 @@
 			files = (
 				892F01A321BA150D00AFF713 /* Hehe.h in Headers */,
 				FBC7CA6C3BB1E9E1A27F14D9FC1EF6F1 /* hehe-umbrella.h in Headers */,
-				8939D4C121BE06B6006CCF9B /* NSString+Category.h in Headers */,
 				892F019F21BA13B600AFF713 /* UINavigationController+FDFullscreenPopGesture.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,7 +304,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				892F01A021BA13B600AFF713 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
-				8939D4C221BE06B6006CCF9B /* NSString+Category.m in Sources */,
 				615982B823717D9D714A1576A1EFA547 /* hehe-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
