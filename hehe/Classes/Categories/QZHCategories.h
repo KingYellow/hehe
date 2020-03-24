@@ -8,6 +8,8 @@
 #ifndef QZHCategories_h
 #define QZHCategories_h
 #import "NSString+Category.h"
+#import "NSString+Exp.h"
+
 
 
 #endif /* QZHCategories_h */

@@ -13,6 +13,8 @@
 		892F01A321BA150D00AFF713 /* Hehe.h in Headers */ = {isa = PBXBuildFile; fileRef = 892F01A221BA150D00AFF713 /* Hehe.h */; };
 		8939D4C621BE49A7006CCF9B /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 8939D4C421BE49A6006CCF9B /* NSString+Category.m */; };
 		8939D4C721BE49A7006CCF9B /* NSString+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 8939D4C521BE49A6006CCF9B /* NSString+Category.h */; };
+		895595A22429AFDA002A5974 /* NSString+Exp.m in Sources */ = {isa = PBXBuildFile; fileRef = 895595A02429AFDA002A5974 /* NSString+Exp.m */; };
+		895595A32429AFDA002A5974 /* NSString+Exp.h in Headers */ = {isa = PBXBuildFile; fileRef = 895595A12429AFDA002A5974 /* NSString+Exp.h */; };
 		95F9554F3BBABDC9DEA0C705CB3E3A7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		DEE4303DC909281D55C379DBA02EA2A0 /* Pods-hehe_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5135CD4BCCB2BE18167F74D6DCE06D0F /* Pods-hehe_Tests-dummy.m */; };
 		FBC7CA6C3BB1E9E1A27F14D9FC1EF6F1 /* hehe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A64363869A90032996290DADABE8637 /* hehe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,6 +48,8 @@
 		8939D4C321BE0CBC006CCF9B /* QZHCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QZHCategories.h; sourceTree = "<group>"; };
 		8939D4C421BE49A6006CCF9B /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
 		8939D4C521BE49A6006CCF9B /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		895595A02429AFDA002A5974 /* NSString+Exp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Exp.m"; sourceTree = "<group>"; };
+		895595A12429AFDA002A5974 /* NSString+Exp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Exp.h"; sourceTree = "<group>"; };
 		8DD59A1A0B8E277D3621C1FC05240487 /* Pods-hehe_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hehe_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99979828468B067CC877D1BA6C48A52C /* Pods_hehe_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hehe_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +142,8 @@
 				892F01A221BA150D00AFF713 /* Hehe.h */,
 				8939D4C521BE49A6006CCF9B /* NSString+Category.h */,
 				8939D4C421BE49A6006CCF9B /* NSString+Category.m */,
+				895595A12429AFDA002A5974 /* NSString+Exp.h */,
+				895595A02429AFDA002A5974 /* NSString+Exp.m */,
 			);
 			name = FullScreen;
 			path = hehe/Classes/FullScreen;
@@ -211,6 +217,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				895595A32429AFDA002A5974 /* NSString+Exp.h in Headers */,
 				892F01A321BA150D00AFF713 /* Hehe.h in Headers */,
 				FBC7CA6C3BB1E9E1A27F14D9FC1EF6F1 /* hehe-umbrella.h in Headers */,
 				8939D4C721BE49A7006CCF9B /* NSString+Category.h in Headers */,
@@ -304,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8939D4C621BE49A7006CCF9B /* NSString+Category.m in Sources */,
+				895595A22429AFDA002A5974 /* NSString+Exp.m in Sources */,
 				615982B823717D9D714A1576A1EFA547 /* hehe-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
